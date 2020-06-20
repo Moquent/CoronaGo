@@ -31,6 +31,7 @@ function setup() {
   virus[9] = createSprite(500, 200, 30, 30);
 
   vir = createSprite(gun.x - 100, gun.y - 100, 3, 15);
+  vir.visible = false;
   vir.shapeColor = "red";
 
 
